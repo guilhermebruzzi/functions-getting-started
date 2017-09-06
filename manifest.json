@@ -1,0 +1,19 @@
+{
+  "name": "functions-getting-started",
+  "vendor": "vtex",
+  "version": "0.1.0",
+  "title": "Getting Started with Functions",
+  "description": "A hello world app using VTEX IO functions",
+  "mustUpdateAt": "2018-01-04",
+  "categories": [],
+  "settingsSchema": {},
+  "registries": [
+    "smartcheckout"
+  ],
+  "builders": {
+    "functions-ts": "0.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish"
+  }
+}
