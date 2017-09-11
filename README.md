@@ -19,4 +19,16 @@ $ vtex link
 
 Finally, access your endpoint at:
 
-// TODO
+```
+POST http://api.vtex.com/{{accountName}}/functions/{{name}}/run
+
+HEADERS
+x-vtex-api-appKey: {{X-VTEX-API-AppKey}}
+x-vtex-api-appToken: {{X-VTEX-API-AppToken}}
+Content-Type: application/json
+
+BODY
+{
+	"foo": "bar"
+}
+```
