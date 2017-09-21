@@ -9,6 +9,12 @@ $ npm i -g vtex
 $ vtex login
 ```
 
+If you already have VTEX Toolbelt you may have to update apps versions:
+
+```
+vtex infra update
+```
+
 Download this repo and open a terminal in its folder.
 
 Then, use `link` to start developing your app:
